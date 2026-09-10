@@ -1,0 +1,85 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2b323c;
+}
+
+.navbar a {
+  display: inline-block;
+  padding: 18px 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.main {
+  margin-top: 100px;
+  padding-bottom: 80px;
+}
+
+.card {
+  width: 350px;
+  max-width: 90%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 12px;
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  background-color: #ff4757;
+  color: white;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 45px;
+  font-size: 13px;
+}
+
+
+
+img {
+
+    background-size: contain;
+}
+
+
+.new-price {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+.old-price {
+  font-size: 14px;
+  text-decoration: line-through;
+  color: #bdc3c7;
+  margin-left: 10px;
+}
+
+.btn {
+  display: block;
+  padding: 12px 0;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  box-sizing: border-box;
+  text-decoration: none;
+
+  background-color: #27ae60;
+  width: 48%;
+  float: left;
+}
+.btn:hover {
+  background-color: #16693a;
+}
